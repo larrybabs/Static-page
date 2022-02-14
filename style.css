@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,600&display=swap');
 
-*{
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
     
 }
 .logo{
@@ -43,7 +43,7 @@ header {
 button {
     margin-left: 20px;
     padding: 9px 14px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
