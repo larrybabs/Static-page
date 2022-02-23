@@ -1,3 +1,121 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,600&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
     background-color: #E5E5E5;
+}
+
+li, a, button{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    /* z-index: 6; */
+    
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto ;
+}
+.nav_links {
+    list-style: none;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+button {
+    margin-left: 20px;
+    padding: 9px 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+/* 
+* {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     background-color: yellow; 
+} */
+
+/* p {
+    font-family: 'Nunito Sans', sans-serif;
+} */
+
+h1{
+    position: relative;
+    top: 130px;
+    left: 70px;
+    font-size: 56px;
+    
+}
+
+.title{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+p{
+    position: relative;
+    top: 120px;
+    left: 70px;
+    font-size: 18px;
+    width: 470px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.cta2 {
+    /* margin-left: 20px; */
+    position: relative;
+    top: 140px;
+    left: 70px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.cta:hover{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.man{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    z-index: -1;
 }
